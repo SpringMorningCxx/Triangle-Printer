@@ -2,7 +2,10 @@
 #include <string>
 
 constexpr std::string n_blank(int n) { return std::string(n, ' '); }
-constexpr std::string n_asterisk(int n) { return std::string(n, '*'); }
+[[deprecated("Use n_chars(n, '*') instead")]]
+constexpr std::string n_asterisk(int n) {
+  return std::string(n, '*');
+}
 constexpr std::string n_chars(int n, char c) { return std::string(n, c); }
 
 class TrianglePrint {
@@ -13,7 +16,6 @@ private:
 public:
   explicit TrianglePrint(int n) : line_num(n) {}
   TrianglePrint(int n, char c) : line_num(n), chars(c) {}
-
 
 public:
   /**
