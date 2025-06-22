@@ -8,9 +8,12 @@ constexpr std::string n_chars(int n, char c) { return std::string(n, c); }
 class TrianglePrint {
 private:
   int line_num = 10;
+  char chars = '*';
 
 public:
   explicit TrianglePrint(int n) : line_num(n) {}
+  TrianglePrint(int n, char c) : line_num(n), chars(c) {}
+
 
 public:
   /**
