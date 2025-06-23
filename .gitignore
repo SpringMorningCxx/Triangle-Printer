@@ -1,32 +1,98 @@
-# Prerequisites
-*.d
-
-# Compiled Object files
-*.slo
-*.lo
 *.o
 *.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
+*.a
+*.lib
 *.so
 *.dylib
 *.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
 *.exe
 *.out
-*.app
+*.bin
+*.ilk
+*.pdb
+*.ipch
+*.exp
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+*.cmake
+build/
+out/
+bin/
+lib/
+x64/
+x86/
+Win32/
+Debug/
+Release/
+RelWithDebInfo/
+MinSizeRel/
+
+deps/
+dependencies/
+third_party/
+external/
+vendor/
+vcpkg_installed/
+conanbuildinfo.cmake
+conaninfo.txt
+conan.lock
+
+# Visual Studio
+.vs/
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.sln
+*.suo
+*.opensdf
+*.sdf
+*.db
+ipch/
+DebugPublic/
+
+# CLion
+.idea/
+*.iml
+cmake-build-*/
+
+# VSCode
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# Xcode
+*.xcodeproj
+*.xcworkspace
+xcuserdata/
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+*.log
+*.tmp
+*.swp
+*~
+*.bak
+*.orig
+
+# Doxygen
+docs/html/
+docs/latex/
+
+
+*.deb
+*.rpm
+*.tar.gz
+*.zip
+*.7z
