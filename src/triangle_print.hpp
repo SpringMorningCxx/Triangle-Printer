@@ -1,4 +1,3 @@
-#include <print>
 #include <string>
 
 constexpr std::string n_blank(int n)

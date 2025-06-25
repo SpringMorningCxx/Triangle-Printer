@@ -1,4 +1,5 @@
 #include "triangle_print.hpp"
+#include <print>
 
 int main()
 {

@@ -1,4 +1,5 @@
 #include "triangle_print.hpp"
+#include <print>
 
 void TrianglePrint::left_right_angled_triangle() const
 {
